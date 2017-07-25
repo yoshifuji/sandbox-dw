@@ -1,0 +1,6 @@
+<iscontent type="text/html" charset="UTF-8" compact="true"/>
+<div>
+${Resource.msg('test.header','level07',null)}<br/>
+${Resource.msgf('test.hoge', 'level07', null, 'fuga')} <br/>
+${Resource.msgf('test.okaidoku', 'level07', null, '200', '100')} 
+</div>

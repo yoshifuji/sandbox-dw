@@ -1,0 +1,8 @@
+<iscontent type="text/html" charset="UTF-8" compact="true"/>
+<div style="background-color: ${pdict.exists ? "pink" : "lightgreen"};">
+    lastName: ${pdict.newsletter.object.custom.lastName}<br/>
+    firstName: ${pdict.newsletter.object.custom.firstName}<br/>
+    email: ${pdict.newsletter.object.custom.email}<br/>
+    exists: ${pdict.exists ? "登録済" : "未登録"}<br/>
+    newsletter: ${pdict.newsletter.getCompleteMessage()}<br/>
+</div>

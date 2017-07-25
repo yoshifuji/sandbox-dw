@@ -1,0 +1,18 @@
+<iscontent type="text/html" charset="UTF-8" compact="true"/>
+<isdecorate template="account/pt_account">
+    <isinclude template="util/modules"/>
+    <div>
+        <form action="${URLUtils.continueURL()}" method="post" name="SendLevel08" id="SendLevel08">
+            <fieldset>
+                <isinputfield formfield="${pdict.CurrentForms.level08.group01.email}" type="input"/>
+                <isinputfield formfield="${pdict.CurrentForms.storelocator.maxdistance}" type="select"/>
+                <div class="form-row form-row-button">
+                    <button type="submit" value="Submit" name="${pdict.CurrentForms.level08.confirm.htmlName}">
+                        Submit
+                    </button>
+                </div>
+                <input type="hidden" name="${dw.web.CSRFProtection.getTokenName()}" value="${dw.web.CSRFProtection.generateToken()}"/>
+            </fieldset>
+        </form>
+    </div>
+</isdecorate>

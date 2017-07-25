@@ -1,0 +1,9 @@
+<iscontent type="text/html" charset="UTF-8" compact="true"/>
+<iscomment>
+isdecorateタグに指定するテンプレートのパスはカードリッジが別でも、
+言語フォルダよりもあとのパスから指定でよい。
+※SiteManagerに設定したカートリッジの優先順位によって自動的に選択される。
+</iscomment>
+<isdecorate template="content/home/pt_storefront">
+    <isinclude template="level01/isset_work"/>
+</isdecorate>

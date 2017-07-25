@@ -1,0 +1,6 @@
+<iscontent type="text/html" charset="UTF-8" compact="true"/>
+<iscomment>変数の設定</iscomment>
+<isset name="Name" value="テスト太郎" scope="session" />
+<div>
+こんにちは${session.custom.Name}さん
+</div>

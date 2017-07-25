@@ -1,0 +1,18 @@
+<iscontent type="text/html" charset="UTF-8" compact="true"/>
+<isdecorate template="account/pt_account">
+    <isinclude template="util/modules"/>
+    <div>
+        <form action="${URLUtils.continueURL()}" method="post" name="SendPractice" id="SendPractice">
+            <fieldset>
+            	<!--  input field -->
+                <isinputfield formfield="${pdict.CurrentForms.practice.group01.search}" type="input"/>
+                <div class="form-row form-row-button">
+                    <button type="submit" value="Submit" name="${pdict.CurrentForms.practice.confirm.htmlName}">
+                        Search
+                    </button>
+                </div>
+                <input type="hidden" name="${dw.web.CSRFProtection.getTokenName()}" value="${dw.web.CSRFProtection.generateToken()}"/>
+            </fieldset>
+        </form>
+    </div>
+</isdecorate>

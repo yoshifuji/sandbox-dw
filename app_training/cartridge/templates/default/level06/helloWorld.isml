@@ -1,0 +1,8 @@
+<iscontent type="text/html" charset="UTF-8" compact="true"/>
+<iscomment>
+  コンテンツスロットタグを追加する
+</iscomment>
+<isinclude template="util/modules"/>
+<div>
+    <isslot id="content-slot-helloWorld" description="コンテンツスロットでhelloworldと表示する" context="global"/>
+</div>

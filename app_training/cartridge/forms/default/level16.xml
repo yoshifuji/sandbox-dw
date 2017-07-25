@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.demandware.com/xml/form/2008-04-19" secure="false">
+    <group formid="group01">
+        <field formid="email" label="level16.email" type="string" mandatory="true" regexp="^[\w.%+-]+@[\w.-]+\.[\w]{2,6}$" parse-error="validate.email" />
+    </group>
+    <action formid="confirm" valid-form="true"/>
+</form>

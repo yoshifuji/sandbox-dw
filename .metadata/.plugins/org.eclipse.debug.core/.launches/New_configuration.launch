@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="com.demandware.studio.debug.remoteDemandwareApplication">
+<stringAttribute key="com.demandware.studio.debug.SERVER_CONFIGURATION" value="7811184547894481228"/>
+<stringAttribute key="com.demandware.studio.debug.SITE_ID" value="Sites-SiteGenesis-Site"/>
+</launchConfiguration>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.demandware.com/xml/form/2008-04-19" secure="false">
+    <group formid="Newsletter">
+        <field formid="email" label="profile.email" type="string" mandatory="true" 
+            regexp="^[\w.%+-]+@[\w.-]+\.[\w]{2,6}$" parse-error="validate.email" 
+            binding="custom.email" value-error="メールアドレスが重複しています。" />
+        <field formid="firstname" label="profile.firstname" type="string" mandatory="true" 
+            binding="custom.firstName" max-length="50"/>
+        <field formid="lastname" label="profile.lastname" type="string" mandatory="true"
+            binding="custom.lastName" max-length="50"/>
+    </group>
+    <action formid="register" valid-form="true"/>
+</form>

@@ -1,0 +1,21 @@
+<iscontent type="text/html" charset="UTF-8" compact="true"/>
+<iscomment>
+isdecorateタグに指定するテンプレートのパスはカードリッジが別でも、
+言語フォルダよりもあとのパスから指定でよい。
+※SiteManagerに設定したカートリッジの優先順位によって自動的に選択される。
+</iscomment>
+<isdecorate template="content/home/pt_storefront">
+    <isinclude template="level01/isset_work"/>
+    <isscript>
+        var tmpList = ["aa", "bb", "cc", "d", "e"];
+    </isscript>
+    <isloop items="${tmpList}" var="item" status="status" begin=1 end=2>
+        ${status.index}<br>
+        ${status.count}<br>
+        <isif condition="${status.odd}">
+            ${item}<br>
+        <iselse>
+            <font color="red">${item}</font><br>
+        </isif>
+    </isloop>
+</isdecorate>

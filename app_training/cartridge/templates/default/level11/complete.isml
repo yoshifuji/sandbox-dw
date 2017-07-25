@@ -1,0 +1,9 @@
+<iscontent type="text/html" charset="UTF-8" compact="true"/>
+<isdecorate template="account/pt_account">
+    <div>
+        Email:${pdict.newsletter.object.custom.email}<br>
+        First Name:${pdict.newsletter.object.custom.firstName}<br>
+        Last Name:${pdict.newsletter.object.custom.lastName}<br>
+        を登録しました。
+    </div>
+</isdecorate>

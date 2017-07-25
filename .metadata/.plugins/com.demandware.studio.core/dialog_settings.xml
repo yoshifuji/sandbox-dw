@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="com.demandware.studio.vpmpipelineEditorOutline">
+	</section>
+	<section name="com.demandware.studio.ui.views.scriptView">
+		<item value="name:100,Path:50,cartridge:50," key="visibleColumns"/>
+		<item value="false" key="showDescription"/>
+		<item value="false" key="showResourcePart"/>
+		<item value="50" key="width_cartridge"/>
+		<item value="100" key="width_name"/>
+		<item value="0" key="quickFilterColumn"/>
+		<item value="50" key="width_Path"/>
+		<section name="filters">
+			<item value="false" key="Hide Invisible Elements"/>
+			<item value="false" key="Hide Overriden Elements"/>
+		</section>
+	</section>
+	<section name="com.demandware.studio.ui.views.pipeletView">
+		<item value="false" key="showDescription"/>
+		<item value="false" key="showResourcePart"/>
+		<item value="117" key="width_Group"/>
+		<item value="157" key="width_cartridge"/>
+		<item value="" key="quickFilter"/>
+		<item value="193" key="width_name"/>
+		<item value="0" key="quickFilterColumn"/>
+		<item value="800;200" key="descriptionPartWeights"/>
+		<item value="200;200" key="resourcePartWeights"/>
+		<section name="filters">
+			<item value="false" key="Hide Invisible Elements"/>
+			<item value="false" key="Hide Overriden Elements"/>
+		</section>
+	</section>
+	<section name="beehivePropertySheet">
+		<item value="256" key="orientation"/>
+	</section>
+	<section name="com.demandware.studio.ui.views.templateView">
+		<item value="name:100,Path:50,cartridge:50," key="visibleColumns"/>
+		<item value="false" key="showDescription"/>
+		<item value="false" key="showResourcePart"/>
+		<item value="50" key="width_cartridge"/>
+		<item value="100" key="width_name"/>
+		<item value="0" key="quickFilterColumn"/>
+		<item value="50" key="width_Path"/>
+		<section name="filters">
+			<item value="false" key="Hide Invisible Elements"/>
+			<item value="false" key="Hide Overriden Elements"/>
+		</section>
+	</section>
+	<section name="com.demandware.studio.ui.views.pipelineView">
+		<item value="name:100,Group:50,pipelineType:30,cartridge:50," key="visibleColumns"/>
+		<item value="false" key="showDescription"/>
+		<item value="false" key="showResourcePart"/>
+		<item value="50" key="width_Group"/>
+		<item value="50" key="width_cartridge"/>
+		<item value="100" key="width_name"/>
+		<item value="0" key="quickFilterColumn"/>
+		<item value="30" key="width_pipelineType"/>
+		<section name="filters">
+			<item value="false" key="Hide Invisible Elements"/>
+			<item value="false" key="Hide Overriden Elements"/>
+		</section>
+	</section>
+	<section name="com.demandware.studio.ui.views.cartridgeView">
+		<item value="false" key="showDescription"/>
+		<item value="false" key="showResourcePart"/>
+		<section name="filters">
+			<item value="true" key="Hide Simple Pipeline Transitions"/>
+			<item value="false" key="Cartridge: Show Current Cartridge Only"/>
+			<item value="false" key="Don&apos;t expand Pipelines"/>
+			<item value="false" key="Hide Invisible Elements"/>
+			<item value="true" key="Hide Pipeline Join Nodes"/>
+			<item value="false" key="Hide Overriden Elements"/>
+		</section>
+	</section>
+	<section name="com.demandware.studio.ui.views.controllerView">
+		<item value="name:100,Path:50,cartridge:50," key="visibleColumns"/>
+		<item value="false" key="showDescription"/>
+		<item value="false" key="showResourcePart"/>
+		<item value="50" key="width_cartridge"/>
+		<item value="100" key="width_name"/>
+		<item value="0" key="quickFilterColumn"/>
+		<item value="50" key="width_Path"/>
+		<section name="filters">
+			<item value="false" key="Hide Invisible Elements"/>
+			<item value="false" key="Hide Overriden Elements"/>
+		</section>
+	</section>
+</section>
