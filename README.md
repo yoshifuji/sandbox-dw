@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Welcome to the SiteGenesis Repository
 
 Please note that `master` is under active development, so please use with caution.
@@ -146,3 +147,6 @@ The equivalent task for grunt, `grunt doc`, is also available.
 Notes :
 1. This tests assumes the Site Preferences->Enable Storefront URLs is enabled
 2. For some promotion and coupon tests to work, remember to use the latest SG Demo data for your site(s).
+=======
+# sandbox-dw
+>>>>>>> origin/master
